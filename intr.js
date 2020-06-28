@@ -6,4 +6,7 @@ console.log(length) ;
 var lastName = "Johnson"; 
 console.log(lastName);                    
 var x = {firstName:"John", lastName:"Doe"};  
-console.log(x);  
+console.log(x); 
+
+let sum = 10+10;
+console.log(sum);
