@@ -10,3 +10,7 @@ console.log(x);
 
 let sum = 10+10;
 console.log(sum);
+
+var a = 14;
+console.log(a);
+
