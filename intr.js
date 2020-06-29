@@ -1,3 +1,4 @@
+/*
 var y=10;
 console.log(x);
 
@@ -17,7 +18,21 @@ console.log(a);
 var l=5;
 var s=10;
 var g=12;
-var result = l+s +"latha"+" " +s+g;
+var result = l+s +"latha"+" "+s+g;
 
 console.log(result);
+*/
+
+//if else statement
+
+var x=12;
+
+if(x%2==0)
+{
+    console.log((x) + "is" + "EvenNumber");
+}
+else
+{
+    console.log((x) + "is"+ "OddNumber");
+}
 
