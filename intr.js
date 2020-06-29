@@ -39,17 +39,18 @@ else
 //whether the number is positive negarive or 0
 
 var n=-3;
-if(x>0)
+if(n>0)
 {
     console.log((n)+"  "+"positive Number");
+    
 }
-else if(x<0)
+else if(n<0)
 {
     console.log((n)+"  "+"negative Number");
 }
 else
 {
-    console.log((n)+"  "+" either positive Number or odd");
+    console.log((n)+"  "+" either positive Number or negative");
 }
 
 
