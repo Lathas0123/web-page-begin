@@ -14,3 +14,10 @@ console.log(sum);
 var a = 14;
 console.log(a);
 
+var l=5;
+var s=10;
+var g=12;
+var result = l+s +"latha"+ s + g;
+
+console.log(result);
+
