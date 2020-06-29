@@ -25,7 +25,7 @@ console.log(result);
 
 //if else statement
 
-var x=12;
+var x=11;
 
 if(x%2==0)
 {
@@ -35,4 +35,21 @@ else
 {
     console.log((x) + "is"+ "OddNumber");
 }
+
+//whether the number is positive negarive or 0
+
+var n=-3;
+if(x>0)
+{
+    console.log((n)+"  "+"positive Number");
+}
+else if(x<0)
+{
+    console.log((n)+"  "+"negative Number");
+}
+else
+{
+    console.log((n)+"  "+" either positive Number or odd");
+}
+
 
