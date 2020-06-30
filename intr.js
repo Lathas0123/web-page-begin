@@ -113,6 +113,13 @@ switch(day)
          break;
 
          default:
-             console.log("worng input")
+             console.log("worng input");
+}
+
+//for loop
+
+for( x=1; x<=10; x++)
+{
+    console.log(5*x);
 }
 
