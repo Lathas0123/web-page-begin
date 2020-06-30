@@ -127,5 +127,11 @@ for( x=2; x<=20; x+=2)
 {
     console.log(x);
 }
-
+/*
 document.getElementById('sometext').innerHTML;
+*/
+
+//numbers in js
+var num1=12;
+num1++;
+console.log(num1*4);
