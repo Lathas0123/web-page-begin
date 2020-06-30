@@ -122,10 +122,18 @@ for( x=1; x<=20; x++)
 {
     console.log(5*x);
 }
+
 // even no
 for( x=2; x<=20; x+=2)
 {
     console.log(x);
+}
+//while loop
+var num=0;
+while(num<10)
+{
+    num+=1;
+    console.log(num);
 }
 /*
 document.getElementById('sometext').innerHTML;
@@ -152,6 +160,8 @@ function greeting()
 }
  //greeting();
 
+ //passing an argument
+
  function greeting(yourname)
 {
     
@@ -160,7 +170,7 @@ function greeting()
 
 }
 var name=prompt('enter your name');
- greeting(name)
+ //greeting(name)
 
 //passing tha arguments in js
 
@@ -170,3 +180,5 @@ function sumNo( l,s)
     console.log(result);
 }
 sumNo(23,10);
+
+
