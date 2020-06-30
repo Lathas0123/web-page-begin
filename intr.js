@@ -1,13 +1,30 @@
+ // datatypes
 /*
-var y=10;
-console.log(x);
-
-var length = 16;  
-console.log(length) ;                            
-var lastName = "Johnson"; 
+var num = 16;  //number
+console.log(num) ;                            
+var lastName = "Johnson"; //string
 console.log(lastName);                    
-var x = {firstName:"John", lastName:"Doe"};  
+var x = {firstName:"John", lastName:"Doe"}; //object  
 console.log(x); 
+let truth=false; //boolean
+let fruits=['appple', 'mango', 'banana']//array
+let random;//undefined
+let nothing=null;//value null
+
+*/
+
+let fruit='banana';
+console.log(fruit);
+
+console.log(fruit.length);
+console.log(fruit.indexOf('b'));
+console.log(fruit.slice(2,5));
+console.log(fruit.replace('ban','123'));
+console.log(fruit.toUpperCase(fruit));
+console.log(fruit.toLowerCase(fruit));
+
+
+
 
 let sum = 10+10;
 console.log(sum);
@@ -21,7 +38,7 @@ var g=12;
 var result = l+s +"latha"+" "+s+g;
 
 console.log(result);
-*/
+
 
 //if else statement
 
@@ -124,7 +141,7 @@ for( x=1; x<=20; x++)
 }
 
 // even no
-for( x=2; x<=20; x+=2)
+for( let x=2; x<=20; x+=2)
 {
     console.log(x);
 }
