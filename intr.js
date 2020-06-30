@@ -146,8 +146,27 @@ fun();
 function greeting()
 {
     var name=prompt('enter your name');
-    var result='hello'+''+name;
+    var result='hello'+' '+name;
     console.log(result);
 
 }
-greeting();
+ //greeting();
+
+ function greeting(yourname)
+{
+    
+    var result='hello'+' '+yourname;
+    console.log(result);
+
+}
+var name=prompt('enter your name');
+ greeting(name)
+
+//passing tha arguments in js
+
+function sumNo( l,s)
+{
+    var result=l+s;
+    console.log(result);
+}
+sumNo(23,10);
