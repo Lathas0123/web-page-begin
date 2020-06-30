@@ -118,8 +118,14 @@ switch(day)
 
 //for loop
 
-for( x=1; x<=10; x++)
+for( x=1; x<=20; x++)
 {
     console.log(5*x);
 }
+// even no
+for( x=2; x<=20; x+=2)
+{
+    console.log(x);
+}
+
 
