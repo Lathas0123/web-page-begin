@@ -73,4 +73,11 @@ else
     console.log((l) + "negative num")
 }
 
+//using and logical operator
+
+var v=8
+if(v>0 && v%2==0)
+{
+    console.log((v) + "positive and even")
+}
 
