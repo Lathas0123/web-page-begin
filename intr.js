@@ -65,19 +65,54 @@ if(l>0)
     }
     else
     {
-        console.log((l) + "no is positive but not even")
+        console.log((l) + "no is positive but not even");
     }
 }
 else
 {
-    console.log((l) + "negative num")
+    console.log((l) + "negative num");
 }
 
 //using and logical operator
 
-var v=8
+var v=8;
 if(v>0 && v%2==0)
 {
-    console.log((v) + "positive and even")
+    console.log((v) + "positive and even");
+}
+
+//switch case
+
+var day=4;
+switch(day)
+{
+    case 1:
+        console.log("sunday");
+        break;
+
+    case 2:
+       console.log("monday");
+        break;
+
+    case 3:
+        console.log("tuesday");
+        break;
+
+    case 4:
+         console.log("wednesday");
+         break;
+    case 5:
+         console.log("thrusday");
+         break;
+     case 6:
+        console.log("friday");
+         break;
+
+         case 7:
+        console.log("saturday");
+         break;
+
+         default:
+             console.log("worng input")
 }
 
