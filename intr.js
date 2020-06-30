@@ -24,6 +24,19 @@ console.log(fruit.toUpperCase(fruit));
 console.log(fruit.toLowerCase(fruit));
 
 
+//spliting by comma and by alphabet
+
+//arrays
+
+let veg=['tomato', 'potato','beans','locule'];
+veg = new Array ('tomato', 'potato','beans','locule');
+console.log(veg[2]);
+
+for(let i=0;i<veg.length;i++)
+{
+    console.log(veg[i]);
+
+}
 
 
 let sum = 10+10;
