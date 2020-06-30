@@ -52,5 +52,25 @@ else
 {
     console.log((n)+"  "+" either positive Number or negative");
 }
+//the number is positive and even
+
+var l=23;
+if(l>0)
+{
+    console.log((l) + "positive number");
+
+    if(l%2==0)
+    {
+        console.log((l) + "positive and even");
+    }
+    else
+    {
+        console.log((l) + "no is positive but not even")
+    }
+}
+else
+{
+    console.log((l) + "negative num")
+}
 
 
