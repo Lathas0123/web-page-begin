@@ -135,3 +135,19 @@ document.getElementById('sometext').innerHTML;
 var num1=12;
 num1++;
 console.log(num1*4);
+
+//function in js
+function fun()
+{
+    console.log("printing option");
+}
+fun();
+
+function greeting()
+{
+    var name=prompt('enter your name');
+    var result='hello'+''+name;
+    console.log(result);
+
+}
+greeting();
