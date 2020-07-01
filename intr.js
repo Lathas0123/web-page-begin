@@ -33,7 +33,11 @@ veg = new Array ('tomato', 'potato','beans','locule');
 console.log(veg[2]);
 console.log(veg.join('*'));
 console.log(veg.pop(), veg);
-console.log(veg.push('capcicum'), veg);
+console.log(veg.push('capcicum'), veg); 
+
+
+let somenum=[9,8,7,4,5,3,2];
+console.log(somenum.sort());
 
 
 
