@@ -31,6 +31,12 @@ console.log(fruit.toLowerCase(fruit));
 let veg=['tomato', 'potato','beans','locule'];
 veg = new Array ('tomato', 'potato','beans','locule');
 console.log(veg[2]);
+console.log(veg.join('*'));
+console.log(veg.pop(), veg);
+console.log(veg.push('capcicum'), veg);
+
+
+
 
 //array using for loop
 for(let i=0;i<veg.length;i++)
@@ -212,7 +218,5 @@ function sumNo( l,s)
 }
 sumNo(23,10);
 
-var s="suma";
-console.log(s);
 
 
