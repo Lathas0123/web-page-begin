@@ -32,6 +32,7 @@ let veg=['tomato', 'potato','beans','locule'];
 veg = new Array ('tomato', 'potato','beans','locule');
 console.log(veg[2]);
 
+//array using for loop
 for(let i=0;i<veg.length;i++)
 {
     console.log(veg[i]);
@@ -210,5 +211,8 @@ function sumNo( l,s)
     console.log(result);
 }
 sumNo(23,10);
+
+var s="suma";
+console.log(s);
 
 
