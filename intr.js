@@ -239,5 +239,22 @@ console.log(student.last);
 console.log(student.age);
 console.log(student.height);
 
+//example in python
+
+let stu=
+{
+    first:'girija',
+    last:'swamy',
+    age:'50',
+    height:'180',
+
+    stuInfo:function()
+    {
+        return this.first +'\n'+this.last+'\n'+this.age;
+    }
+};
+console.log(stu.stuInfo());
+
+
 
 
