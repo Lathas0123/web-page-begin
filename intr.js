@@ -11,7 +11,6 @@ let fruits=['appple', 'mango', 'banana']//array
 let random;//undefined
 let nothing=null;//value null
 
-*/
 
 let fruit='banana';
 console.log(fruit);
@@ -176,10 +175,11 @@ while(num<10)
     num+=1;
     console.log(num);
 }
+
 /*
 document.getElementById('sometext').innerHTML;
 */
-
+/*
 //numbers in js
 var num1=12;
 num1++;
@@ -203,6 +203,7 @@ function greeting()
 
  //passing an argument
 
+
  function greeting(yourname)
 {
     
@@ -220,7 +221,23 @@ function sumNo( l,s)
     var result=l+s;
     console.log(result);
 }
-sumNo(23,10);
+//sumNo(23,10);
+*/
+
+
+//objects
+
+let student=
+{
+    first:'girija',
+    last:'swamy',
+    age:'50',
+    height:'180',
+}
+console.log(student.first);
+console.log(student.last);
+console.log(student.age);
+console.log(student.height);
 
 
 
