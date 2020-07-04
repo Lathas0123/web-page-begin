@@ -255,6 +255,9 @@ let stu=
 };
 console.log(stu.stuInfo());
 
+document.getElementById('p1').innerHTML;
+
+
 
 
 
